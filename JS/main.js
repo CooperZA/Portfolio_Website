@@ -9,37 +9,7 @@ $('document').ready(()=>{
         }, 2000);
     });
 
-    // scroolreveal
-    // ScrollReveal().reveal('.showcase-text')
-
-    // const sr = ScrollReveal();
-
-    // sr.reveal('.showcase-text', {
-    //     origin: 'bottom',
-    //     distance: '100px',
-    //     scale: '0.5',
-    //     duration: 2000,
-    //     reset: true
-    // });
-
-    // sr.reveal('.main_1', {
-    //     origin: 'bottom',
-    //     distance: '100px',
-    //     scale: '0.4',
-    //     duration: 2000,
-    //     delay: 1000,
-    //     reset: true
-    // });
-
-    // sr.reveal('.contact-text', {
-    //     origin: 'bottom',
-    //     distance: '100px',
-    //     scale: '0.4',
-    //     duration: 2000,
-    //     delay: 2000,
-    //     reset: true
-    // });
-
+    // ScrollReveal
     const sr = ScrollReveal({
         origin: 'bottom',
         distance: '50px',
@@ -57,6 +27,11 @@ $('document').ready(()=>{
     });
     sr.reveal('.contact-text', {
         delay: 500
+    });
+
+    // Display project information
+    $('.displayProj').addEventListener("mouseover", ()=>{
+        $('.displayProj').css({'display': 'contents'}, {'background-color': 'rgba(0,0,0,0.8)'});
     });
 
 });
