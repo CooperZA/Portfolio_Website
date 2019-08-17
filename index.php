@@ -57,7 +57,8 @@
     <?php include('Include\proj_carousel.php'); ?>
 
     <!-- Experience Section -->
-    <section class="bg-color" id="exp">
+    <div id="exp"></div>
+    <section class="bg-color">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">

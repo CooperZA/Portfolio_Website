@@ -1,7 +1,7 @@
 <section class="contact" id="contact">
     <div class="contact-text">
         <div class="contact-items">
-            <h2>Get in Contact</h2>
+            <h2>Contact Me</h2>
         </div>
         <form action="sendemail.php" method="post" class="contact-items">
             <input type="text" name="name" id="name" placeholder="Enter Your Name...">
