@@ -25,8 +25,8 @@
                 <p>
                     I am a creative problem solver, passionate about web development and data analytics, working towards a degree in Management Information Systems with a background in the outdoors industry.
                 </p>
-                <a href="../Assets/Zach_Cooper_Resume.docx" download="ZachCooper_Resume.docx" class="btn btn-blue-grey"><i class="fas fa-download"></i> Resume</a>
-                <a href="../Assets/CV.docx" download="ZachCooper_CV.docx" class="btn btn-blue-grey"><i class="fas fa-download"></i> CV</a>
+                <a href="Assets\Zach_Cooper_Resume.docx" download="ZachCooper_Resume.docx" class="btn btn-blue-grey"><i class="fas fa-download"></i> Resume</a>
+                <a href="Assets/CV.docx" download="ZachCooper_CV.docx" class="btn btn-blue-grey"><i class="fas fa-download"></i> CV</a>
             </div><!-- End of showcase-text-items -->
         </div><!-- End of showcase-text -->
     </div><!-- End of showcase -->
@@ -69,7 +69,7 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner">
                     <div class="item active proj">
-                        <img class="proj-img img-responsive" src="../images/Cancer_Classifier.png" alt="Cancer Classifier Output">
+                        <img class="proj-img img-responsive" src="Images\Cancer_Classifier.png" alt="Cancer Classifier Output">
                         <div class="carousel-caption">
                             <div class="displayProj">
                                 <h3>Machine Learning for Tumors</h3>
@@ -80,7 +80,7 @@
                     </div>
 
                     <div class="item">
-                        <img src="chicago.jpg" alt="Chicago">
+                        <img class="img-responsive" src="images/crud_app.png" alt="Crud App">
                         <div class="carousel-caption">
                             <div class="displayProj">
                                 <h3>PHP Crud</h3>
@@ -160,7 +160,7 @@
     <?php include('include/footer.php'); ?>
 
     <!-- jQuery -->
-    <script src="../JS/JQuery/jquery-3.4.1.js"></script>
+    <script src="JS/JQuery/jquery-3.4.1.js"></script>
     <!-- scroll reveal -->
     <script src="https://unpkg.com/scrollreveal"></script>
     <!-- Bootstrap JS -->
@@ -169,7 +169,7 @@
     <!-- wow js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <!-- custom JS -->
-    <script src="../JS/main.js"></script>
+    <script src="JS/main.js"></script>
 
 </body>
 
