@@ -14,22 +14,11 @@
 </head>
 
 <body>
-    <!-- element id and href -->
+    <!-- Header & Nav -->
     <?php include('include/header.php'); ?>
-
-    <!-- <div class="container"> -->
-    <div id="showcase">
-        <div class="showcase-text" id="home">
-            <div class="showcase-text-items">
-                <h2>Welcome To My Website</h2>
-                <p>
-                    I am a creative problem solver, passionate about web development and data analytics, working towards a degree in Management Information Systems with a background in the outdoors industry.
-                </p>
-                <a href="Assets\Zach_Cooper_Resume.docx" download="ZachCooper_Resume.docx" class="btn btn-blue-grey"><i class="fas fa-download"></i> Resume</a>
-                <a href="Assets/CV.docx" download="ZachCooper_CV.docx" class="btn btn-blue-grey"><i class="fas fa-download"></i> CV</a>
-            </div><!-- End of showcase-text-items -->
-        </div><!-- End of showcase-text -->
-    </div><!-- End of showcase -->
+    
+    <!-- Showcase -->
+    <?php include('include/showcase.php'); ?>
 
     <main id="about">
         <section class="main_1">
@@ -55,63 +44,8 @@
         </section><!-- End of main_1 section -->
     </main>
 
-    <!-- Projects Carousel -->
-    <main id="projects">
-        <div class="container">
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                </ol>
-
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner">
-                    <div class="item active proj">
-                        <img class="proj-img img-responsive" src="Images\Cancer_Classifier.png" alt="Cancer Classifier Output">
-                        <div class="carousel-caption">
-                            <div class="displayProj">
-                                <h3>Machine Learning for Tumors</h3>
-                                <p>Developed a simple machine learning algoritm that was able to predict the severity of a tumor.</p>
-                                <a href="https://github.com/CooperZA/CS141/blob/master/Assignment_5/cancer_classifier.py" class="btn btn-info">View Code</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <img class="img-responsive" src="images/crud_app.png" alt="Crud App">
-                        <div class="carousel-caption">
-                            <div class="displayProj">
-                                <h3>PHP Crud</h3>
-                                <p>Created a crud web application using PHP.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <img src="ny.jpg" alt="New York">
-                        <div class="carousel-caption">
-                            <div class="displayProj">
-                                <h3>Project 3</h3>
-                                <p>About project 3</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Left and right controls -->
-                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
-        </div>
-    </main>
+    <!-- Project Carousel -->
+    <?php include('Include\proj_carousel.php'); ?>
 
     <!-- Experience Section -->
     <section class="bg-color" id="exp">
@@ -120,6 +54,7 @@
                 <div class="col-md-12">
                     <div class="section-header text-center main_1" wow-delay="0.2s">
                         <h2>Experience</h2>
+                        <p class="line"></p> 
                     </div>
                 </div>
             </div>
@@ -128,14 +63,14 @@
                     <i class="fas fa-book"></i>
                     <h4>Knowledge is power</h4>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, iure!
+                        With indepth experience in feilds like <strong>Finance</strong>, <strong>Information Technology</strong>, <strong>Web and Application Development</strong> and <strong>Data Analysis/Visualization</strong>. I have a diverse skill set that allows me to work dynamically in teams and produce high performance results.
                     </p>
                 </div>
                 <div class="box main_1">
                     <i class="fas fa-graduation-cap"></i>
-                    <h4>Senior High School</h4>
+                    <h4>MIS Degree and Ecommerce Development Cert.</h4>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, et.
+                        Whith a degree in Management Information Systems and a sepecialization in Ecommerce Development I can provide imense value in any project I work on.
                     </p>
                 </div>
                 <div class="box main_1">
@@ -166,8 +101,8 @@
     <!-- Bootstrap JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <!-- wow js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <!-- mdbootstrap js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.8/js/mdb.min.js"></script>
     <!-- custom JS -->
     <script src="JS/main.js"></script>
 
