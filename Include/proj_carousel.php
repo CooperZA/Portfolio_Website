@@ -1,3 +1,12 @@
+<div id="projects" class="row pt-2">
+    <div class="col-md-12">
+        <div class="section-header text-center text-white main_1">
+            <h2>Projects</h2>
+        </div>
+    </div>
+</div>
+
+<div class="main_1">
 <!-- Carousel -->
 <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
     <!-- Indicators -->
@@ -13,34 +22,39 @@
         <div class="carousel-item active">
             <div class="view">
                 <img class="d-block w-100" src="Images\Cmd_Classifier.png" alt="First slide">
-                <div class="mask rgba-black-slight"></div>
+                <div class="mask rgba-black-light"></div>
             </div>
             <div class="carousel-caption">
                 <h3 class="h3-responsive">Machine Learning Cancer Classifier</h3>
                 <p>Developed a simple machine learning algoritm that was able to predict the severity of a tumor.</p>
                 <a href="https://github.com/CooperZA/CS141/blob/master/Assignment_5/cancer_classifier.py" class="btn btn-info">View Code</a>
+                <a href="https://github.com/CooperZA/CS141/tree/master/Assignment_5" class="btn btn-info">GitHub</a>
             </div>
         </div>
         <div class="carousel-item">
             <!-- Mask color -->
             <div class="view">
-                <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg" alt="Second slide">
-                <div class="mask rgba-black-slight"></div>
+                <img class="d-block w-100" src="Images\Site_Snip.png" alt="Second slide">
+                <div class="mask rgba-black-light"></div>
             </div>
             <div class="carousel-caption">
-                <h3 class="h3-responsive">Strong mask</h3>
-                <p>Secondary text</p>
+                <h3 class="h3-responsive">Portfolio Website</h3>
+                <p>Made this portfolio website using HTML5, CSS3, ES6 and PHP languages as well as bootstrap4 and jQuery.</p>
+                <a href="https://github.com/CooperZA/Portfolio_Website/blob/master/index.php" class="btn btn-info">View Code</a>
+                <a href="https://github.com/CooperZA/Portfolio_Website" class="btn btn-info">GitHub</a>
             </div>
         </div>
         <div class="carousel-item">
             <!-- Mask color -->
             <div class="view">
-                <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg" alt="Third slide">
-                <div class="mask rgba-black-slight"></div>
+                <img class="d-block w-100" src="Images/data.jpeg" alt="Third slide">
+                <div class="mask rgba-black-light"></div>
             </div>
             <div class="carousel-caption">
-                <h3 class="h3-responsive">Slight mask</h3>
-                <p>Third text</p>
+                <h3 class="h3-responsive">PHP Crud App</h3>
+                <p>Developed a basic Crud app using PHP</p>
+                <a href="https://github.com/CooperZA/Crud_App/blob/master/index.php" class="btn btn-info">View Code</a>
+                <a href="https://github.com/CooperZA/Crud_App" class="btn btn-info">GitHub</a>
             </div>
         </div>
     </div>
@@ -58,3 +72,4 @@
     <!-- end .Controls -->
 </div>
 <!-- end .Carousel Wrapper -->
+</div>

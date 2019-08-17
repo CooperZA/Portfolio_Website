@@ -16,32 +16,41 @@
 <body>
     <!-- Header & Nav -->
     <?php include('include/header.php'); ?>
-    
+
     <!-- Showcase -->
     <?php include('include/showcase.php'); ?>
 
     <main id="about">
-        <section class="main_1">
-            <h2>Who I am</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptas libero quas, tempora
-                sint assumenda sed repudiandae perspiciatis soluta labore.
-            </p>
-        </section><!-- End of main_1 section -->
-        <section class="main_1">
-            <h2>Main Heading Two</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptas libero quas, tempora
-                sint assumenda sed repudiandae perspiciatis soluta labore.
-            </p>
-        </section><!-- End of main_1 section -->
-        <section class="main_1">
-            <h2>Main Heading Three</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptas libero quas, tempora
-                sint assumenda sed repudiandae perspiciatis soluta labore.
-            </p>
-        </section><!-- End of main_1 section -->
+        <div class="container">
+        <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center main_1">
+                        <h2>About</h2>
+                    </div>
+                </div>
+            </div>
+            <section class="box main_1">
+                <h4>Who I am</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptas libero quas, tempora
+                    sint assumenda sed repudiandae perspiciatis soluta labore.
+                </p>
+            </section><!-- End of main_1 section -->
+            <section class=" box main_1">
+                <h4>Main Heading Two</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptas libero quas, tempora
+                    sint assumenda sed repudiandae perspiciatis soluta labore.
+                </p>
+            </section><!-- End of main_1 section -->
+            <section class="box main_1">
+                <h4>Main Heading Three</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptas libero quas, tempora
+                    sint assumenda sed repudiandae perspiciatis soluta labore.
+                </p>
+            </section><!-- End of main_1 section -->
+        </div>
     </main>
 
     <!-- Project Carousel -->
@@ -52,9 +61,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="section-header text-center main_1" wow-delay="0.2s">
+                    <div class="section-header text-center main_1">
                         <h2>Experience</h2>
-                        <p class="line"></p> 
                     </div>
                 </div>
             </div>
@@ -74,10 +82,10 @@
                     </p>
                 </div>
                 <div class="box main_1">
-                    <i class="fas fa-chalkboard-teacher"></i>
-                    <h4>Unmatched Proffessor</h4>
+                    <i class="fas fa-code"></i>
+                    <h4>Lanuages</h4>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, non!
+                        CSS3, C, HTML5, ES6, MySQL, Python, PHP
                     </p>
                 </div>
             </div>

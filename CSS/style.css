@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,700&display=swap');
 
 :root{
-    --main-color:#5DBCD2;
+    --main-color:#33b5e5;
     --text-color:#fff;
     --text-color-2:#333;
     --hover-color: #2b8464;
@@ -67,6 +67,7 @@ main{
     flex: 1;
     padding:3%;
     text-align: center;
+    color: var(--text-color) !important;
 }
 
 /* Project Section */
