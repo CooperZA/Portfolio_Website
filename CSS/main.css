@@ -6,7 +6,7 @@
     --text-color:#fff;
     --text-color-2:#333;
     --hover-color: #2b8464;
-    --bg-color-1: rgba(0,0,0,0.8);
+    --bg-color-1: #2E2E2E;
 }
 
 body{
@@ -26,6 +26,7 @@ body{
 .showcase-text{
     display: flex;
     padding: 15% 0;
+    height: 100vh;
 }
 .showcase-text-items{
     width: 50%;
@@ -138,7 +139,7 @@ main{
 }
 
 .submit{
-    background: var(--main-color);
+    /* background: var(--main-color); */
     padding:0.5em;
     text-align: center;
     color:var(--text-color);
@@ -146,7 +147,7 @@ main{
     display: block;
     border-radius: 0.5em;
     margin-bottom: 1em;
-    border: 1px solid var(--main-color);
+    /* border: 1px solid var(--main-color); */
     transition: all .5s;
 }
 .submit:hover{
@@ -176,7 +177,7 @@ main{
 footer{
     width: 100%;
     padding: 3em;
-    background-color: var(--bg-color-1);
+    background-color: var(--bg-color-1) !important;
     text-align: center;
 }
 

@@ -20,13 +20,13 @@ $('document').ready(()=>{
     });
 
     sr.reveal('.showcase-text', {
-        delay: 500
+        delay: 200
     });
     sr.reveal('.main_1', {
-        delay: 500
+        delay: 200
     });
     sr.reveal('.contact-text', {
-        delay: 500
+        delay: 200
     });
 
     // Display project information

@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Zach Cooper | Portfolio</title>
+    <link rel="stylesheet" href="../css/bootstrap/bootstrap.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.8/css/mdb.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-    <link rel="stylesheet" href="..\CSS\main.css">
+    <link rel="stylesheet" href="CSS\main.css">
 </head>
 
 <body>
@@ -23,8 +25,8 @@
                 <p>
                     I am a creative problem solver, passionate about web development and data analytics, working towards a degree in Management Information Systems with a background in the outdoors industry.
                 </p>
-                <a href="../Assets/resume.docx" download="ZachCooper_Resume.docx" class="btn btn-secondary"><i class="fas fa-download"></i> Resume</a>
-                <a href="../Assets/CV.docx" download="ZachCooper_CV.docx" class="btn btn-secondary"><i class="fas fa-download"></i> CV</a>
+                <a href="../Assets/Zach_Cooper_Resume.docx" download="ZachCooper_Resume.docx" class="btn btn-blue-grey"><i class="fas fa-download"></i> Resume</a>
+                <a href="../Assets/CV.docx" download="ZachCooper_CV.docx" class="btn btn-blue-grey"><i class="fas fa-download"></i> CV</a>
             </div><!-- End of showcase-text-items -->
         </div><!-- End of showcase-text -->
     </div><!-- End of showcase -->
@@ -116,31 +118,36 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    div.section-header-
+                    <div class="section-header text-center main_1" wow-delay="0.2s">
+                        <h2>Experience</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="box main_1">
+                    <i class="fas fa-book"></i>
+                    <h4>Knowledge is power</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, iure!
+                    </p>
+                </div>
+                <div class="box main_1">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h4>Senior High School</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, et.
+                    </p>
+                </div>
+                <div class="box main_1">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                    <h4>Unmatched Proffessor</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, non!
+                    </p>
                 </div>
             </div>
         </div>
-        <div class="box">
-            <i class="fas fa-book"></i>
-            <h4>Knowledge is power</h4>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, iure!
-            </p>
-        </div>
-        <div class="box">
-            <i class="fas fa-graduation-cap"></i>
-            <h4>Senior High School</h4>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, et.
-            </p>
-        </div>
-        <div class="box">
-            <i class="fas fa-chalkboard-teacher"></i>
-            <h4>Unmatched Proffessor</h4>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, non!
-            </p>
-        </div>
+
     </section>
 
     <!-- </div> -->

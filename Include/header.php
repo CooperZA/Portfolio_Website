@@ -1,6 +1,6 @@
 <header>
     <!-- <div class="navbar"> -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar elegant-color">
         <div class="container">
             <a class="navbar-brand" href="#">Zach Cooper</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navS" aria-controls="navS" aria-expanded="true" aria-label="Toggle navigation">

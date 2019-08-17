@@ -7,7 +7,7 @@
             <input type="text" name="name" id="name" placeholder="Enter Your Name...">
             <input type="text" name="email" id="email" placeholder="Enter Your Email...">
             <textarea name="" id="" cols="20" rows="20" placeholder="Your Message Here..."></textarea>
-            <a href="#" class="submit">Submit</a>
+            <a href="#" class="submit btn-blue-grey">Submit</a>
         </form>
     </div><!-- End of contact -->
 </section><!-- End of contact section -->
