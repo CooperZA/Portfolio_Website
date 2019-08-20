@@ -26,7 +26,7 @@
             </div>
             <div class="carousel-caption">
                 <h3 class="h3-responsive">Machine Learning Cancer Classifier</h3>
-                <p>Developed a simple machine learning algoritm that was able to predict the severity of a tumor.</p>
+                <p class="desc">Developed a simple machine learning algoritm that was able to predict the severity of a tumor.</p>
                 <a href="https://github.com/CooperZA/CS141/blob/master/Assignment_5/cancer_classifier.py" class="btn btn-info">View Code</a>
                 <a href="https://github.com/CooperZA/CS141/tree/master/Assignment_5" class="btn btn-info">GitHub</a>
             </div>
@@ -39,7 +39,7 @@
             </div>
             <div class="carousel-caption">
                 <h3 class="h3-responsive">Portfolio Website</h3>
-                <p>Made this portfolio website using HTML5, CSS3, ES6 and PHP languages as well as bootstrap4 and jQuery.</p>
+                <p class="desc">Made this portfolio website using HTML5, CSS3, ES6 and PHP languages as well as bootstrap4 and jQuery.</p>
                 <a href="https://github.com/CooperZA/Portfolio_Website/blob/master/index.php" class="btn btn-info">View Code</a>
                 <a href="https://github.com/CooperZA/Portfolio_Website" class="btn btn-info">GitHub</a>
             </div>
@@ -52,7 +52,7 @@
             </div>
             <div class="carousel-caption">
                 <h3 class="h3-responsive">PHP Crud App</h3>
-                <p>Developed a basic Crud app using PHP</p>
+                <p class="desc">Developed a basic Crud app using PHP</p>
                 <a href="https://github.com/CooperZA/Crud_App/blob/master/index.php" class="btn btn-info">View Code</a>
                 <a href="https://github.com/CooperZA/Crud_App" class="btn btn-info">GitHub</a>
             </div>

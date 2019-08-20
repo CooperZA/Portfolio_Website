@@ -46,30 +46,21 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-header text-center main_1">
-                        <h2>About</h2>
+                        <h2>Who I Am</h2>
                     </div>
                 </div>
             </div>
             <section class="box main_1">
-                <h4>Who I am</h4>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptas libero quas, tempora
-                    sint assumenda sed repudiandae perspiciatis soluta labore.
-                </p>
+                <h4>A problem solver who strives to find simple and effective solutions.</h4>
             </section><!-- End of main_1 section -->
             <section class=" box main_1">
-                <h4>Main Heading Two</h4>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptas libero quas, tempora
-                    sint assumenda sed repudiandae perspiciatis soluta labore.
-                </p>
+                <h4>A web development and data analytics specialist.</h4>
             </section><!-- End of main_1 section -->
             <section class="box main_1">
-                <h4>Main Heading Three</h4>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptas libero quas, tempora
-                    sint assumenda sed repudiandae perspiciatis soluta labore.
-                </p>
+                <h4>An analytical thinker who is adaptable to any change.</h4>
+            </section><!-- End of main_1 section -->
+            <section class="box main_1">
+                <h4>Someone who is always seeking the next challenge.</h4>
             </section><!-- End of main_1 section -->
         </div>
     </main>
@@ -112,14 +103,16 @@
                 </div>
             </div>
         </div>
+        <!-- </div> -->
+        <!-- end container -->
 
     </section>
 
-    <!-- </div> -->
-    <!-- end container -->
-
     <!-- Contact Formr -->
-    <?php include('include/contactform.php'); ?>
+    <?php include('include/contact.php'); ?>
+
+    <!-- Contact Modal -->
+    <?php include('include/contact_modal.php'); ?>
 
     <!-- Footer -->
     <?php include('include/footer.php'); ?>
