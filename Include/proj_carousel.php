@@ -47,7 +47,7 @@
         <div class="carousel-item">
             <!-- Mask color -->
             <div class="view">
-                <img class="d-block w-100" src="Images/data.jpeg" alt="Third slide">
+                <img class="d-block w-100" src="Images/Crud_app.png" alt="Third slide">
                 <div class="mask rgba-black-light"></div>
             </div>
             <div class="carousel-caption">

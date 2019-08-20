@@ -34,7 +34,7 @@
     <meta name="theme-color" content="#ffffff">
 </head>
 
-<body>
+<body id="#home">
     <!-- Header & Nav -->
     <?php include('include/header.php'); ?>
 

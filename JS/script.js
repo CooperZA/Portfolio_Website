@@ -1,8 +1,8 @@
 /* Smooth Scroll */
 $('document').ready(()=>{
     // SmoothScroll
-    $('.scr').click((e)=>{
-        e.preventDefault();
+    $('.scr').click((event)=>{
+        event.preventDefault();
 
         $('html, body').animate({
             scrollTop: $(this.hash).offset().top
