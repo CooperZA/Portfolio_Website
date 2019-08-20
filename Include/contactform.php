@@ -1,4 +1,8 @@
-<section class="contact" id="contact">
+<div id="contact" class=""></div>
+<br>
+<br>
+<br>
+<section class="contact">
     <div class="contact-text">
         <div class="contact-items">
             <h2>Contact Me</h2>

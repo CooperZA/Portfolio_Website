@@ -1,6 +1,6 @@
-<div id="projects" class="row pt-2">
+<div id="projects" class="row">
     <div class="col-md-12">
-        <div class="section-header text-center text-white main_1">
+        <div class="section-header text-center text-white main_1 padtop">
             <h2>Projects</h2>
         </div>
     </div>

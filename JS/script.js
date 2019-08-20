@@ -1,7 +1,7 @@
 /* Smooth Scroll */
 $('document').ready(()=>{
     // SmoothScroll
-    $('.scroll').click((e)=>{
+    $('.scr').click((e)=>{
         e.preventDefault();
 
         $('html, body').animate({
