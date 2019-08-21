@@ -23,12 +23,12 @@
         <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
                 <div class="view">
-                    <img class="d-block w-100" src="Images\Cmd_Classifier.png" alt="First slide">
+                    <img class="d-block w-100" src="Images\CClassifier.png" alt="First slide">
                     <div class="mask rgba-black-light"></div>
                 </div>
                 <div class="carousel-caption">
-                    <h3 class="h3-responsive">Machine Learning Cancer Classifier</h3>
-                    <p class="desc">Developed a simple machine learning algoritm that was able to predict the severity of a tumor.</p>
+                    <h3 class="h3-responsive">Cancer Classifier</h3>
+                    <p class="desc">Developed a machine learning algoritm that is able to predict the severity of a tumor.</p>
                     <a href="https://github.com/CooperZA/CS141/blob/master/Assignment_5/cancer_classifier.py" class="btn btn-info">View Code</a>
                     <a href="https://github.com/CooperZA/CS141/tree/master/Assignment_5" class="btn btn-info">GitHub</a>
                 </div>
