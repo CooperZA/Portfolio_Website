@@ -21,7 +21,7 @@
                 <i class="fas fa-graduation-cap"></i>
                 <h4>MIS Degree and Ecommerce Development Cert.</h4>
                 <p>
-                    Whith a degree in Management Information Systems and a sepecialization in Ecommerce Development I can provide imense value in any project I work on.
+                    Whith a degree in Management Information Systems and a sepecialization in Ecommerce Development I can provide imense value to any project I work on.
                 </p>
             </div>
             <div class="box main_1">

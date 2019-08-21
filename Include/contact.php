@@ -1,10 +1,10 @@
-<div id="contact" class=""></div>
-<section class="contact">
+<section id="contact" class="contact">
     <div class="contact-text">
-        <div class="contact-items">
+        <!-- use .contact-items for larger text -->
+        <div class="section-header text-center">
             <h2>Contact Me</h2>
         </div>
-        <section class="bg-color pt-10 pb-10">
+        <section class="bg-color pb-10">
             <div class="container">
                 <div class="row">
                     <div class="box main_1">

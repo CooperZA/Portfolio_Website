@@ -1,5 +1,4 @@
 <header>
-    <!-- <div class="navbar"> -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar elegant-color">
         <div class="container">
             <a class="navbar-brand" href="#">Zach Cooper</a>
@@ -25,6 +24,5 @@
             </div>
         </div>
     </nav>
-    <!-- </div> -->
 </header>
 <!-- End of header -->

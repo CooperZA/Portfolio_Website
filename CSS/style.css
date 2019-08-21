@@ -1,22 +1,29 @@
 /* imported font */
-@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,700&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css?family=Raleway:400,800&display=swap'); */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,600&display=swap');
 
+/* root variables */
 :root{
     --main-color:#33b5e5;
     --text-color:#fff;
     --text-color-2:#333;
     --hover-color: #2b8464;
     --bg-color-1: #2E2E2E;
+    --scroll-bar-hov: #0099CC;
+    --scroll-bar-bg: #33b5e5;
 }
 
 body{
-    font-family: 'Nunito Sans', sans-serif !important;
+    /* font-family: 'Roboto', sans-serif !important; */
+    /* font-family: 'Raleway', sans-serif !important; */
+    font-family: 'Montserrat', sans-serif !important;
     background-color: rgba(0,0,0,0.8);
     color: var(--text-color);
 }
 
 .padtop{
-    padding-top: 10% !important;
+    padding-top: 5% !important;
     padding-bottom: 2% !important;
 }
 /* showcase */
@@ -69,9 +76,30 @@ main{
 }
 .main_1{
     flex: 1;
-    /* padding: 3% !important; */
     text-align: center;
     color: var(--text-color) !important;
+}
+
+/* Scrollbar */
+/* width */
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+/* thumb handle bg color */
+::-webkit-scrollbar-thumb{
+    background: var(--scroll-bar-bg);
+    border-radius: 5px;
+}
+
+/* thumb handle on hover */
+::-webkit-scrollbar-thumb:hover{
+    background: var(--scroll-bar-hov);
+}
+
+/* track color */
+::-webkit-scrollbar-track{
+    background: var(--bg-color-1);
 }
 
 /* Project Section */
