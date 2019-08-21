@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.8/css/mdb.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS\style.css">
 
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="57x57" href="Images/Favicon/apple-icon-57x57.png">
@@ -60,6 +60,7 @@
 
     <!-- jQuery -->
     <script src="JS/JQuery/jquery-3.4.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <!-- scroll reveal -->
     <script src="https://unpkg.com/scrollreveal"></script>
     <!-- Bootstrap JS -->
@@ -68,7 +69,7 @@
     <!-- mdbootstrap js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.8/js/mdb.min.js"></script>
     <!-- custom JS -->
-    <script src="JS/script.js"></script>
+    <script src="JS\script.js"></script>
 
 </body>
 

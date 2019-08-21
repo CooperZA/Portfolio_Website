@@ -19,9 +19,9 @@
             </div>
             <div class="box main_1">
                 <i class="fas fa-graduation-cap"></i>
-                <h4>MIS Degree and Ecommerce Development Cert.</h4>
+                <h4>MIS and Ecommerce Development</h4>
                 <p>
-                    Whith a degree in Management Information Systems and a sepecialization in Ecommerce Development I can provide imense value to any project I work on.
+                    Whith a degree in Management Information Systems and a sepecialization in Ecommerce Development I can provide imense value to any project and team I work with.
                 </p>
             </div>
             <div class="box main_1">

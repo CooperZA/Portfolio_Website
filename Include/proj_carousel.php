@@ -30,7 +30,7 @@
                     <h3 class="h3-responsive">Cancer Classifier</h3>
                     <p class="desc">Developed a machine learning algoritm that is able to predict the severity of a tumor.</p>
                     <a href="https://github.com/CooperZA/CS141/blob/master/Assignment_5/cancer_classifier.py" class="btn btn-info">View Code</a>
-                    <a href="https://github.com/CooperZA/CS141/tree/master/Assignment_5" class="btn btn-info">GitHub</a>
+                    <a href="https://github.com/CooperZA/CS141/tree/master/Assignment_5" class="btn btn-info githide">GitHub</a>
                 </div>
             </div>
             <div class="carousel-item">
@@ -43,7 +43,7 @@
                     <h3 class="h3-responsive">Portfolio Website</h3>
                     <p class="desc">Made this portfolio website using HTML5, CSS3, ES6 and PHP languages as well as bootstrap4 and jQuery.</p>
                     <a href="https://github.com/CooperZA/Portfolio_Website/blob/master/index.php" class="btn btn-info">View Code</a>
-                    <a href="https://github.com/CooperZA/Portfolio_Website" class="btn btn-info">GitHub</a>
+                    <a href="https://github.com/CooperZA/Portfolio_Website" class="btn btn-info githide">GitHub</a>
                 </div>
             </div>
             <div class="carousel-item">
@@ -56,7 +56,7 @@
                     <h3 class="h3-responsive">PHP Crud App</h3>
                     <p class="desc">Developed a Crud app using PHP</p>
                     <a href="https://github.com/CooperZA/Crud_App/blob/master/index.php" class="btn btn-info">View Code</a>
-                    <a href="https://github.com/CooperZA/Crud_App" class="btn btn-info">GitHub</a>
+                    <a href="https://github.com/CooperZA/Crud_App" class="btn btn-info githide">GitHub</a>
                 </div>
             </div>
         </div>

@@ -177,3 +177,12 @@ carousel
         </div>
     </div>
 </main>
+
+
+Contact Form
+<!-- <form action="sendemail.php" method="post" class="contact-items">
+            <input type="text" name="name" id="name" placeholder="Enter Your Name...">
+            <input type="text" name="email" id="email" placeholder="Enter Your Email...">
+            <textarea name="" id="" cols="20" rows="20" placeholder="Your Message Here..."></textarea>
+            <a href="#" class="submit btn-info">Submit</a>
+        </form> -->

@@ -1,14 +1,12 @@
-/* Smooth Scroll */
-$('document').ready(()=>{
-    // SmoothScroll
-    $('.scr').click((event)=>{
+// Prevents right click
+window.onload = ()=>{
+    document.addEventListener('contextmenu', event => {
         event.preventDefault();
+    }, false);
+}
 
-        $('html, body').animate({
-            scrollTop: $(this.hash).offset().top
-        }, 2000);
-    });
-
+/* ScrollReveal */
+$('document').ready(()=>{
     // ScrollReveal
     const sr = ScrollReveal({
         origin: 'bottom',
@@ -27,11 +25,42 @@ $('document').ready(()=>{
     });
     sr.reveal('.contact-text', {
         delay: 200
-    });
-
-    // Display project information
-    $('.displayProj').addEventListener("mouseover", ()=>{
-        $('.displayProj').css({'display': 'contents'}, {'background-color': 'rgba(0,0,0,0.8)'});
-    });
-
+    }); 
 });
+
+// Form Validation
+const form = $('.contactform');
+
+form.addEventListener('sumbit', event => {
+    event.preventDefault();
+
+    // feild values
+    const name = form.name.value;
+    const email = form.email.value;
+    const message = form.message.value;
+
+    // Check name field
+    if(name == ""){
+        alert("Name field is empty");
+        form.name.style.borderColor = "red";
+        return false;
+    }
+
+    // Check email field
+    if(email == ""){
+        alert("Email field is empty");
+        form.email.style.borderColor = "red";
+        return false;
+    }
+
+    // Check message field
+    if(message == ""){
+        alert("Message field is empty");
+        form.message.style.borderColor = "red";
+        return false;
+    }
+
+    // if conditions false submit
+    form.submit();
+});
+
