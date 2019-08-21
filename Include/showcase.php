@@ -11,4 +11,4 @@
             </div><!-- End of showcase-text-items -->
         </div><!-- End of showcase-text -->
     </div><!-- End of showcase -->
-</div>
+</div><!-- /#home -->

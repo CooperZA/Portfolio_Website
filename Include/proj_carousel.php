@@ -52,7 +52,7 @@
             </div>
             <div class="carousel-caption">
                 <h3 class="h3-responsive">PHP Crud App</h3>
-                <p class="desc">Developed a basic Crud app using PHP</p>
+                <p class="desc">Developed a Crud app using PHP</p>
                 <a href="https://github.com/CooperZA/Crud_App/blob/master/index.php" class="btn btn-info">View Code</a>
                 <a href="https://github.com/CooperZA/Crud_App" class="btn btn-info">GitHub</a>
             </div>
