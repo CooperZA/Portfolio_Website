@@ -28,8 +28,9 @@ $('document').ready(()=>{
     }); 
 });
 
+alert('called 3');
 // Form Validation
-const form = $('.contactform');
+const form = document.querySelector('.contactform');
 
 form.addEventListener('sumbit', event => {
     event.preventDefault();
@@ -39,28 +40,23 @@ form.addEventListener('sumbit', event => {
     const email = form.email.value;
     const message = form.message.value;
 
-    // Check name field
     if(name == ""){
+        // Check name field
         alert("Name field is empty");
         form.name.style.borderColor = "red";
         return false;
-    }
-
-    // Check email field
-    if(email == ""){
+    }else if(email == ""){
+        // Check email field
         alert("Email field is empty");
         form.email.style.borderColor = "red";
         return false;
-    }
-
-    // Check message field
-    if(message == ""){
+    }else if(message == ""){
+        // Check message field
         alert("Message field is empty");
         form.message.style.borderColor = "red";
         return false;
+    }else{
+        form.submit(); // if conditions false submit
     }
-
-    // if conditions false submit
-    form.submit();
 });
-
+alert("called 4");

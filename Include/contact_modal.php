@@ -6,8 +6,7 @@
                     <h1 class="modal-title text-dark">Send Me a Message</h1>
                 </div>
                 <div class="modal-body">
-                    <form class="contactform" role="form" method="POST" action="sendemail.php" autocomplete>
-                        <input type="hidden" name="_token" value="">
+                    <form class="contactform" role="form" method="POST" action="include/sendemail.php" autocomplete>
                         <div class="form-group">
                             <label for="name" class="control-label text-body">Name</label>
                             <div>
@@ -26,8 +25,8 @@
                         </div>
                         <div class="form-group">
                             <div>
-                                <!-- <button type="submit" class="btn btn-info">Submit</button> -->
-                                <input type="submit" value="Submit" class="btn btn-info">
+                                <button type="submit" class="btn btn-info">Submit</button>
+                                <!-- <input type="submit" value="Submit" class="btn btn-info"> -->
                             </div>
                         </div>
                     </form>

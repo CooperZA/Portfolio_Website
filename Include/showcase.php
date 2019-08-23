@@ -2,7 +2,7 @@
     <div id="showcase">
         <div class="showcase-text">
             <div class="showcase-text-items">
-                <h2>Welcome To My Website</h2>
+                <h2 class="text-center">Welcome To My Website</h2>
                 <p>
                     I believe in the power of technology and its ability to change peoples lives.
                 </p>

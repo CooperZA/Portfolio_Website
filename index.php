@@ -33,7 +33,7 @@
     <meta name="theme-color" content="#ffffff">
 </head>
 
-<body id="#home">
+<body id="home">
     <!-- Header & Nav -->
     <?php include('include/header.php'); ?>
 
@@ -69,7 +69,7 @@
     <!-- mdbootstrap js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.8/js/mdb.min.js"></script>
     <!-- custom JS -->
-    <script src="JS\script.js"></script>
+    <script src="JS/script.js"></script>
 
 </body>
 
