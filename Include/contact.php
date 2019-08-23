@@ -41,7 +41,7 @@
                     </div>
                 </div>
                 <div class="text-center">
-                    <a class="btn btn-info text-center" href="#contact" data-toggle="modal" data-target="#ContactForm">Send Me A Message</a>
+                    <a class="btn btn-info text-center conta-button" href="#contact" data-toggle="modal" data-target="#ContactForm">Send Me A Message</a>
                 </div>
             </div>
             <!-- end container -->

@@ -118,8 +118,13 @@ footer{
     .desc{
         display: none;
     }
+    /* hide github button */
     .githide{
         display: none !important;
+    }
+    /* hide contact button */
+    .conta-button{
+        display: none;
     }
 }
 

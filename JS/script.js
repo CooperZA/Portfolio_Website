@@ -28,7 +28,6 @@ $('document').ready(()=>{
     }); 
 });
 
-alert('called 3');
 // Form Validation
 const form = document.querySelector('.contactform');
 
@@ -59,4 +58,3 @@ form.addEventListener('sumbit', event => {
         form.submit(); // if conditions false submit
     }
 });
-alert("called 4");

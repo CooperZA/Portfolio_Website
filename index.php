@@ -49,7 +49,7 @@
     <!-- Experience -->
     <?php include('include/experience.php'); ?>
 
-    <!-- Contact Formr -->
+    <!-- Contact Form -->
     <?php include('include/contact.php'); ?>
 
     <!-- Contact Modal -->
@@ -61,13 +61,13 @@
     <!-- jQuery -->
     <script src="JS/JQuery/jquery-3.4.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <!-- scroll reveal -->
-    <script src="https://unpkg.com/scrollreveal"></script>
     <!-- Bootstrap JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <!-- mdbootstrap js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.8/js/mdb.min.js"></script>
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
     <!-- custom JS -->
     <script src="JS/script.js"></script>
 
