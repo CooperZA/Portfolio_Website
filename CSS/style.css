@@ -104,6 +104,24 @@ main{
     font-size: 2.75rem;
 }
 
+/* Gallery Section */
+.container-gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    grid-gap: 20px;
+    margin: 0.2em 2em;
+}
+
+.item img {
+    width: 100%;
+    height: 100%;
+}
+
+.item img:hover {
+    cursor: pointer;
+}
+
 /* footer */
 footer{
     width: 100%;

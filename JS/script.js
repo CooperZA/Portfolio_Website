@@ -28,10 +28,16 @@ $('document').ready(()=>{
     }); 
 });
 
+/* baguetteBox */
+baguetteBox.run('.gallery', {
+    // custom
+    captions: false,
+});
+
 // Form Validation
 const form = document.querySelector('.contactform');
 
-form.addEventListener('sumbit', event => {
+form.addEventListener('submit', event => {
     event.preventDefault();
 
     // feild values

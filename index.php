@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.8/css/mdb.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-    <link rel="stylesheet" href="CSS\style.css">
+    <link rel="stylesheet" href="css\baguettebox.css">
+    <link rel="stylesheet" href="css\style.css">
 
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="57x57" href="Images/Favicon/apple-icon-57x57.png">
@@ -49,6 +50,9 @@
     <!-- Experience -->
     <?php include('include/experience.php'); ?>
 
+    <!-- Gallery -->
+    <?php include('include/gallery.php'); ?>
+
     <!-- Contact Form -->
     <?php include('include/contact.php'); ?>
 
@@ -66,10 +70,12 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <!-- mdbootstrap js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.8/js/mdb.min.js"></script>
+    <!-- BaguetteBox -->
+    <script src="js/baguettebox.js"></script>
     <!-- scroll reveal -->
     <script src="https://unpkg.com/scrollreveal"></script>
     <!-- custom JS -->
-    <script src="JS/script.js"></script>
+    <script src="js/script.js"></script>
 
 </body>
 
