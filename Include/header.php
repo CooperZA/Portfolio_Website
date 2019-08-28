@@ -15,8 +15,6 @@
 
                     <li class="nav item"><a href="#exp" class="nav-link">Experience</a></li>
 
-                    <li class="nav item"><a href="#gallery" class="nav-link">Gallery</a></li>
-
                     <li class="nav item"><a href="#contact" class="nav-link">Contact</a></li>
 
                     <li class="nav item"><a href="https://github.com/CooperZA" class="nav-link"><i class="fab fa-github"></i></a></li>

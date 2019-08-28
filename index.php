@@ -11,11 +11,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.8/css/mdb.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-    <link rel="stylesheet" href="css\baguettebox.css">
+    <!-- <link rel="stylesheet" href="css\baguettebox.css"> -->
     <link rel="stylesheet" href="css\style.css">
 
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="57x57" href="Images/Favicon/apple-icon-57x57.png">
+    <!--<link rel="apple-touch-icon" sizes="57x57" href="Images/Favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="Images/Favicon/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="Images/Favicon/apple-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="76x76" href="Images/Favicon/apple-icon-76x76.png">
@@ -31,7 +31,13 @@
     <link rel="manifest" href="Images/Favicon/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
+    <meta name="theme-color" content="#ffffff"> -->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_2/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_2/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon_2/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon_2/site.webmanifest">
+
 </head>
 
 <body id="home">
@@ -49,9 +55,6 @@
 
     <!-- Experience -->
     <?php include('include/experience.php'); ?>
-
-    <!-- Gallery -->
-    <?php include('include/gallery.php'); ?>
 
     <!-- Contact Form -->
     <?php include('include/contact.php'); ?>
@@ -71,7 +74,7 @@
     <!-- mdbootstrap js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.8/js/mdb.min.js"></script>
     <!-- BaguetteBox -->
-    <script src="js/baguettebox.js"></script>
+    <!-- <script src="js/baguettebox.js"></script> -->
     <!-- scroll reveal -->
     <script src="https://unpkg.com/scrollreveal"></script>
     <!-- custom JS -->
