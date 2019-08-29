@@ -33,10 +33,10 @@
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff"> -->
 
-    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_2/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_2/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon_2/favicon-16x16.png">
-    <link rel="manifest" href="images/favicon_2/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/site.webmanifest">
 
 </head>
 
