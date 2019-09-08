@@ -23,7 +23,7 @@
         <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
                 <div class="view">
-                    <img class="d-block w-100" src="images\cclassifier.png" alt="First slide">
+                    <img class="d-block w-100" src="images/cclassifier.png" alt="First slide">
                     <div class="mask rgba-black-light"></div>
                 </div>
                 <div class="carousel-caption">
@@ -36,7 +36,7 @@
             <div class="carousel-item">
                 <!-- Mask color -->
                 <div class="view">
-                    <img class="d-block w-100" src="images\site_snip.png" alt="Second slide">
+                    <img class="d-block w-100" src="images/site_snip.png" alt="Second slide">
                     <div class="mask rgba-black-light"></div>
                 </div>
                 <div class="carousel-caption">

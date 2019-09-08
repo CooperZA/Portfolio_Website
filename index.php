@@ -33,7 +33,7 @@
     <?php include('include/about.php'); ?>
 
     <!-- Project Carousel -->
-    <?php include('include\proj_carousel.php'); ?>
+    <?php include('include/proj_carousel.php'); ?>
 
     <!-- Experience -->
     <?php include('include/experience.php'); ?>
@@ -48,7 +48,7 @@
     <?php include('include/footer.php'); ?>
 
     <!-- jQuery -->
-    <script src="JS/JQuery/jquery-3.4.1.js"></script>
+    <script src="js/jquery/jquery-3.4.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <!-- Bootstrap JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
