@@ -14,14 +14,14 @@
                 <i class="fas fa-book"></i>
                 <h4>Knowledge is power</h4>
                 <p>
-                    With indepth experience in feilds like <strong>Finance</strong>, <strong>Information Technology</strong>, <strong>Web and Application Development</strong> and <strong>Data Analysis/Visualization</strong>. I have a diverse skill set that allows me to work dynamically in teams and produce high performance results.
+                    With indepth experience in fields like <strong>Finance</strong>, <strong>Information Technology</strong>, <strong>Web and Application Development</strong> and <strong>Data Analysis/Visualization</strong>. I have a diverse skill set that allows me to work dynamically in teams and produce high performance results.
                 </p>
             </div>
             <div class="box main_1">
                 <i class="fas fa-graduation-cap"></i>
                 <h4>MIS and Ecommerce Development</h4>
                 <p>
-                    Whith a degree in Management Information Systems and a sepecialization in Ecommerce Development I can provide imense value to any project and team I work with.
+                    With a degree in Management Information Systems and a specialization in Ecommerce Development I can provide imense value to any project and team I work with.
                 </p>
             </div>
             <div class="box main_1">

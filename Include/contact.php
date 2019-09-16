@@ -5,7 +5,7 @@
             <h2>Contact Me</h2>
         </div>
         <section class="bg-color pb-10">
-            <div class="container">
+            <div class="container main_1">
                 <div class="row">
                     <div class="box main_1">
                         <i class="fas fa-map-marker-alt"></i>
