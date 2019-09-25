@@ -40,9 +40,9 @@
                         </p>
                     </div>
                 </div>
-                <div class="text-center">
+                <!-- <div class="text-center">
                     <a class="btn btn-info text-center conta-button" href="#contact" data-toggle="modal" data-target="#ContactForm">Send Me A Message</a>
-                </div>
+                </div> -->
             </div>
             <!-- end container -->
         </section>
