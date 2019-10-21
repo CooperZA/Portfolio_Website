@@ -21,7 +21,7 @@ body{
 }
 /* showcase */
 #showcase{
-    background-image: url(../images/circles.jpg);
+    background-image: url(../images/circles-min.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
