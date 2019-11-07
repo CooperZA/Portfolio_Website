@@ -45,17 +45,17 @@ form.addEventListener('submit', event => {
     const email = form.email.value;
     const message = form.message.value;
 
-    if(name == ""){
+    if(name === ""){
         // Check name field
         alert("Name field is empty");
         form.name.style.borderColor = "red";
         return false;
-    }else if(email == ""){
+    }else if(email === ""){
         // Check email field
         alert("Email field is empty");
         form.email.style.borderColor = "red";
         return false;
-    }else if(message == ""){
+    }else if(message === ""){
         // Check message field
         alert("Message field is empty");
         form.message.style.borderColor = "red";

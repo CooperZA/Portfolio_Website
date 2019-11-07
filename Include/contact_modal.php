@@ -10,22 +10,22 @@
                         <div class="form-group">
                             <label for="name" class="control-label text-body">Name</label>
                             <div>
-                                <input type="text" class="form-control" id="name" name="name" value="">
+                                <input type="text" class="form-control" id="name" name="name" value="" required="required">
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="email" class="control-label text-body">Email</label>
                             <div>
-                                <input type="email" class="form-control" id="email" name="email" value="">
+                                <input type="email" class="form-control" id="email" name="email" value="" required="required">
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="message" class="control-label text-body">Message</label>
-                            <textarea class="form-control" id="message" name="message" rows="4" cols="6"></textarea>
+                            <textarea class="form-control" id="message" name="message" rows="4" cols="6" required="required"></textarea>
                         </div>
                         <div class="form-group">
                             <div>
-                                <button type="submit" class="btn btn-info">Submit</button>
+                                <button type="submit" value="Submit" class="btn btn-info">Submit</button>
                                 <!-- <input type="submit" value="Submit" class="btn btn-info"> -->
                             </div>
                         </div>

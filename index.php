@@ -48,7 +48,7 @@
     <?php include('include/footer.php'); ?>
 
     <!-- jQuery -->
-    <script src="js/jquery/jquery-3.4.1.js"></script>
+    <script src="js\jquery\jquery-3.4.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <!-- Bootstrap JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -60,7 +60,7 @@
     <!-- scroll reveal -->
     <script src="https://unpkg.com/scrollreveal"></script>
     <!-- custom JS -->
-    <script src="js/script.js"></script>
+    <script src="js\script.js"></script>
 
 </body>
 
